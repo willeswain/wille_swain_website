@@ -1,26 +1,44 @@
 body {
     background-image: linear-gradient(to bottom, lightblue, yellow, red, lightblue);
     font-family: sans-serif;
+    text-align: center;
 }
 
 h1 {
     color: black;
+    text-align: center;
 }
 
 p {
     color: black;
+    text-align: center;
 }
 
 h6 {
     color: black;
+    text-align: center;
 }
 table,
 td {
     border: 1px solid #333;
+    text-align: center;
 }
-
+tr {
+    text-align: center;
+}
 thead,
 tfoot {
     background-color: #333;
     color: #fff;
+}
+a:hover {
+  color: royalblue;
+}
+
+dd {
+    text-align: center;
+}
+
+dt {
+    text-align: center;
 }
