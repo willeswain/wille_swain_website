@@ -7,6 +7,11 @@ body {
 h1 {
     color: black;
     text-align: center;
+    background-color: #ceff85;
+}
+h2 {
+    color:black;
+
 }
 
 p {
@@ -41,4 +46,13 @@ dd {
 
 dt {
     text-align: center;
+}
+hr {
+    color: black;
+    text-align: center;
+    border: 2px solid #34eb7d;
+
+}
+img {
+    border-radius: 50%;
 }
