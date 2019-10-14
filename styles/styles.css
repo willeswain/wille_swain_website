@@ -7,10 +7,11 @@ body {
 h1 {
     color: black;
     text-align: center;
-    background-color: #ceff85;
+    background-color: #34eb7d;
 }
+
 h2 {
-    color:black;
+    color: black;
 
 }
 
@@ -23,21 +24,30 @@ h6 {
     color: black;
     text-align: center;
 }
+
 table,
 td {
     border: 1px solid #333;
     text-align: center;
 }
+
 tr {
     text-align: center;
 }
+
 thead,
 tfoot {
     background-color: #333;
     color: #fff;
 }
+span:hover {
+    text-decoration: underline;
+    color: royalblue;
+}
 a:hover {
-  color: royalblue;
+    text-decoration: underline;
+    color: royalblue;
+
 }
 
 dd {
@@ -47,12 +57,17 @@ dd {
 dt {
     text-align: center;
 }
+
 hr {
     color: black;
     text-align: center;
     border: 2px solid #34eb7d;
 
 }
+
 img {
     border-radius: 50%;
+}
+div {
+    text-align: center;
 }
