@@ -38,15 +38,16 @@ tr {
 thead,
 tfoot {
     background-color: #333;
-    color: #fff;
+    color: whitesmoke;
+    text-align: center;
 }
 span:hover {
     text-decoration: underline;
-    color: royalblue;
+    color: crimson;
 }
 a:hover {
     text-decoration: underline;
-    color: royalblue;
+    color: crimson;
 
 }
 
@@ -67,6 +68,11 @@ hr {
 
 img {
     border-radius: 50%;
+    transition: width 1s;
+}
+img:hover{
+    border-radius: 50%;
+    width: 1100px;
 }
 div {
     text-align: center;

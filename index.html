@@ -4,14 +4,44 @@
     <title>Wille Swain's Webpage</title>
     <link rel="stylesheet" href="./styles/styles.css">
     <script src="./scripts/script.js"></script>
+    <style>
+        .dropdown {
+            position: right;
+            display: inline-block;
+            text-align: center;
+        }
+
+        .dropdown-content {
+            display: none;
+            position: absolute;
+            background-color: aliceblue;
+            min-width: 160px;
+            box-shadow: 0px 8p 16px 0px rgba(0, 0, 0, 0.2);
+            padding: 12px 16px;
+            z-index: 1;
+        }
+
+        .dropdown:hover .dropdown-content {
+            display: block;
+            text-decoration: underline;
+        }
+    </style>
 </head>
 
 <body>
-    <ul>
-        <li class="crumb"><a HREF="background.html">Background</a></li>
-        <li class="crumb"><a HREF="favorites.html">Favorites</a></li>
-        <li class="crumb"><a HREF="interests.html">Interests</a></li>
-    </ul>
+    <center>
+
+        <div class="dropdown">
+
+            <h1><u><span>Links</span></u></h1>
+            <div class="dropdown-content">
+                <p><a HREF="background.html">Background</a></p>
+                <p><a HREF="favorites.html">Favorites</a></p>
+                <p><a HREF="interests.html">Interests</a></p>
+            </div>
+        </div>
+    </center>
+
     <hr>
     <h1>Hello! Welcome to my Webpage!</h1>
     <h2>William "Wille" Swain</h2>
@@ -33,7 +63,8 @@
         <footer>-Stevie Wonder</footer>
     </blockquote>
     <hr>
-    <table align=center>
+    <table align = "center">
+
         <thead>
             <tr>
                 <th colspan="2">My Schedule</th>
