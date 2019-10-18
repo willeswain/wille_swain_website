@@ -1,2 +1,2 @@
-var name = "Wille Swain";
-document.write(name);
+//var name = "Wille Swain";
+//document.write(name);
