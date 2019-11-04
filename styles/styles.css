@@ -69,14 +69,12 @@ hr {
 }
 
 img {
-    border-radius: 50%;
-    transition: width 2s, border-radius 2s, transform 2s;
+ border-radius: 50%
 }
 
 img:hover {
-    border-radius: 50%;
-    width: 1100px;
-    transform: rotate(1080deg)
+    border-radius: 0%;
+    transition: 1s;
 }
 
 div {
