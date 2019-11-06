@@ -69,7 +69,7 @@ hr {
 }
 
 img {
- border-radius: 50%
+    border-radius: 50%
 }
 
 img:hover {
@@ -80,12 +80,15 @@ img:hover {
 div {
     text-align: center;
 }
+
 h1:hover {
-    color:darkslategray;
+    color: darkslategray;
 }
+
 h2:hover {
-    color:darkslategray;
+    color: darkslategray;
 }
+
 h3:hover {
-    color:darkslategray;
+    color: darkslategray;
 }
